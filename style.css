@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  color: #000;
+}
+body{
+  font-family:"Segoe UI";
+  font-style: "italic";
+  color: rgb(240, 231, 231);
+}
+section
+{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-image: url('aqi.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+.form-container
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: large;
+  transform: translate(-50%,-50%);
+  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+  width: 380px;
+  padding: 50px 30px;
+  border-radius: 10px;
+  box-shadow: 7px 7px 60px #000;
+}
+h1{
+  text-transform: uppercase;
+  font-size: x-large;
+  text-align: center;
+  margin-bottom: 2em;
+}
+.control input{
+  width: 100%;
+  display: block;
+  padding: 20px;
+  color: #000;
+  margin: 1em;
+}
+.control input[type='submit']
+{
+  background: rgb(255, 68, 0);
+  color: #fff;
+  font-size: large;
+  opacity: .8;
+}
